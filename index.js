@@ -76,7 +76,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="card">
-        <h1>🚀 CI/CD Pipeline Success!</h1>
+        <h1>CI/CD Pipeline Success!</h1>
         <p>Your Node.js + Docker + GitHub Actions setup is running smoothly 🎉</p>
         <a href="/status" class="btn">Check Status</a>
       </div>
@@ -88,7 +88,7 @@ app.get('/', (req, res) => {
 // optional health/status route for monitoring
 app.get('/status', (req, res) => {
   res.json({
-    status: "✅ Running",
+    status: "Running",
     service: "Node.js CI/CD Demo App",
     timestamp: new Date().toISOString()
   });
