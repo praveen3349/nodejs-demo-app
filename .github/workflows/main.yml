@@ -30,7 +30,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: praveen3349
-          password: myDockerPassword123
+          password: praveen2150
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/nodejs-demo-app:latest
