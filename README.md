@@ -95,7 +95,7 @@ Once the Docker image is pushed to Docker Hub:
 
  - docker pull YOUR_USERNAME/nodejs-demo-app:latest
  - docker run -d -p 3000:3000 YOUR_USERNAME/nodejs-demo-app:latest
-Visit: http://localhost:3000
+   **Visit: http://localhost:3000**
 
 <img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/b91f4f8a-aba1-4f72-886e-8e434e00e0ec" />
 
